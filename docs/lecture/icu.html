@@ -1,0 +1,804 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { /*
+
+Copyright The Closure Library Authors.
+SPDX-License-Identifier: Apache-2.0
+*/
+(function(){function e(g){this.t={};this.tick=function(h,k,f){this.t[h]=[void 0!=f?f:(new Date).getTime(),k];if(void 0==f)try{window.console.timeStamp("CSI/"+h)}catch(m){}};this.tick("start",null,g)}var a;if(window.performance)var d=(a=window.performance.timing)&&a.responseStart;var l=0<d?new e(d):new e;window.jstiming={Timer:e,load:l};if(a){var b=a.navigationStart;0<b&&d>=b&&(window.jstiming.srt=d-b)}if(a){var c=window.jstiming.load;0<b&&d>=b&&(c.tick("_wtsrt",void 0,b),c.tick("wtsrt_","_wtsrt",
+d),c.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),c&&0<b&&(c.tick("_tbnd",void 0,window.chrome.csi().startE),c.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,c&&0<b&&(c.tick("_tbnd",void 0,window.external.startE),c.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(g){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/13edd3/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { function d(a){return document.getElementById(a)}window.byId=d;function g(a){return a.replace(/^\s+|\s+$/g,"")}window.trim=g;var h=[],k=0;window.JOT_addListener=function(a,b,c){var f=new String(k++);a={eventName:a,handler:b,compId:c,key:f};h.push(a);return f};window.JOT_removeListenerByKey=function(a){for(var b=0;b<h.length;b++)if(h[b].key==a){h.splice(b,1);break}};window.JOT_removeAllListenersForName=function(a){for(var b=0;b<h.length;b++)h[b].eventName==a&&h.splice(b,1)};
+window.JOT_postEvent=function(a,b,c){var f={eventName:a,eventSrc:b||{},payload:c||{}};if(window.JOT_fullyLoaded)for(b=h.length,c=0;c<b&&c<h.length;c++){var e=h[c];e&&e.eventName==a&&(f.listenerCompId=e.compId||"",(e="function"==typeof e.handler?e.handler:window[e.handler])&&e(f))}else window.JOT_delayedEvents.push({eventName:a,eventSrc:b,payload:c})};window.JOT_delayedEvents=[];window.JOT_fullyLoaded=!1;
+window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1440<=a||0>a)return null;var c=0;60<=a&&(a/=60,c=2);2<=a&&c++;return b?window.JOT_siteRelTimeStrs[c].replace("__duration__",Math.floor(a)):window.JOT_userRelTimeStrs[c].replace("__duration__",Math.floor(a))}; })()
+</script>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/13edd3/system/app/pagetypes/announcements/announcements.css" />
+<script>
+
+  
+
+  var breadcrumbs = [{"path":"/lecture","deleted":false,"title":"Lecture","dir":"ltr"},{"path":"/lecture/icu","deleted":false,"title":"ICU","dir":"ltr"}];
+  var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/13edd3/system/app/images/cleardot.gif';
+
+  
+  var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+  
+  
+
+  
+
+  var webspace = {"gvizGstaticVersion":"current","enableAnalytics":true,"pageSharingId":"jotspot_page","codeembeds":{"outerIframeSrc":"https://www.gstatic.com/jotspot/embeds/code/0f08d42392f2000e7e3f3daf5b427a43/outer_iframe.html","innerIframeSrc":"https://42264606-jotspot-embeds.googleusercontent.com/code/8d87fa64604b2a11fae2ed06104c58d3/inner_iframe.html"},"enableUniversalAnalytics":false,"sharingPolicy":"OPENED","siteTitle":"[Shirai Lab]","jot2atari":{"eligibility":"ineligible"},"onepickUrl":"https://docs.google.com/picker","adsensePublisherId":null,"features":{"moreMobileStyleImprovements":null,"subscriptionDataMigrationInProgress":null,"plusBadge":false},"isPublic":true,"newSitesBaseUrl":"https://sites.google.com","isConsumer":false,"serverFlags":{"jot2AtariLearnMoreUrl":"https://support.google.com/sites/answer/7035197"},"domainAnalyticsAccountId":"","plusPageId":"","signInUrl":"https://accounts.google.com/AccountChooser?continue\u003dhttp://sites.google.com/a/shirai.la/www/lecture/icu\u0026service\u003djotspot","analyticsAccountId":"UA-15889025-1","scottyUrl":"/_/upload","homePath":"/","siteNoticeUrlEnabled":null,"plusPageUrl":"","adsensePromoClickedOrSiteIneligible":true,"csiReportUri":"http://csi.gstatic.com/csi","sharingId":"jotspot","termsUrl":"//www.google.com/intl/en/policies/terms/","gvizVersion":1,"editorResources":{"sitelayout":["http://www.gstatic.com/sites/p/13edd3/system/app/css/sitelayouteditor.css"],"text":["http://www.gstatic.com/sites/p/13edd3/system/js/codemirror.js","http://www.gstatic.com/sites/p/13edd3/system/app/css/codemirror_css.css","http://www.gstatic.com/sites/p/13edd3/system/js/trog_edit__en.js","http://www.gstatic.com/sites/p/13edd3/system/app/css/trogedit.css","/_/rsrc/1595488769000/system/app/css/editor.css","http://www.gstatic.com/sites/p/13edd3/system/app/css/codeeditor.css","/_/rsrc/1595488769000/system/app/css/camelot/editor-jfk.css"]},"sharingUrlPrefix":"/_/sharing","isAdsenseEnabled":true,"domain":"shirai.la","baseUri":"","name":"www","siteTemplateId":false,"siteNoticeRevision":null,"siteNoticeUrlAddress":null,"siteNoticeMessage":null,"page":{"isRtlLocale":false,"canDeleteWebspace":null,"isPageDraft":null,"parentPath":"/lecture","parentWuid":"wuid:gx:69c550fc63bd86f9","siteLocale":"ja","timeZone":"America/Los_Angeles","type":"announcements","title":"ICU","locale":"en","wuid":"wuid:gx:6f1dcfd5f3fbc106","revision":4,"path":"/lecture/icu","isSiteRtlLocale":false,"pageInheritsPermissions":null,"name":"icu","canChangePath":true,"state":"","properties":{},"bidiEnabled":false,"currentTemplate":{"path":"/system/app/pagetemplates/announcements","title":"Announcements"}},"canPublishScriptToAnyone":true,"user":{"keyboardShortcuts":true,"sessionIndex":"","onePickToken":"","guest_":true,"displayNameOrEmail":"guest","userName":"guest","uid":"","renderMobile":false,"domain":"","namespace":"","hasWriteAccess":false,"namespaceUser":false,"primaryEmail":"guest","hasAdminAccess":false},"gadgets":{"baseUri":"/system/app/pages/gadgets"}};
+  webspace.page.breadcrumbs = breadcrumbs;
+
+  
+  var JOT_siteRelTimeStrs = ["1 \u5206\u524d","__duration__ \u5206\u524d","1 \u6642\u9593\u524d","__duration__ \u6642\u9593\u524d"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="google-site-verification" content="UTNa8jXq9jJRuH5q9vMTYU0es9rtqHAwrYDuic_-rU4" />
+<meta name="title" content="ICU - [Shirai Lab]" />
+<meta itemprop="name" content="ICU - [Shirai Lab]" />
+<meta property="og:title" content="ICU - [Shirai Lab]" />
+<meta name="description" content="This website is Shirai Akihiko Laboratory in virtual, an International site as www. Please visit blog.shirai.la is for latest updates in Japanese." />
+<meta itemprop="description" content="This website is Shirai Akihiko Laboratory in virtual, an International site as www. Please visit blog.shirai.la is for latest updates in Japanese." />
+<meta id="meta-tag-description" property="og:description" content="This website is Shirai Akihiko Laboratory in virtual, an International site as www. Please visit blog.shirai.la is for latest updates in Japanese." />
+<style type="text/css">
+      
+      @font-face {
+  font-family: 'Mako';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Mako'), url(https://fonts.gstatic.com/s/mako/v12/H4coBX6Mmc_Z4SP-8g.ttf) format('truetype');
+}
+
+    
+    </style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/13edd3/system/app/themes/opensky/standard-css-opensky-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1595488769000/system/app/css/overlay.css?cb=opensky5a150goog-ws-rightnone" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1595488769000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>ICU - [Shirai Lab]</title>
+<meta itemprop="image" content="/_/rsrc/1285862966642/config/customLogo.gif?revision=3" />
+<meta property="og:image" content="/_/rsrc/1285862966642/config/customLogo.gif?revision=3" />
+<link type="application/atom+xml" rel="alternate" href="http://www.shirai.la/lecture/icu/posts.xml" title="www の Atom フィード: ICU" />
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" ja            ">
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything" class="">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="height:auto;">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="height:auto;">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class="" role="banner"><div class="sites-header-cell-buffer-wrapper"><a href="http://www.shirai.la/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="/_/rsrc/1285862966642/config/customLogo.gif?revision=3" alt="[Shirai Lab]" class="sites-logo  " /></a><h2><a href="http://www.shirai.la/" dir="ltr" id="sites-chrome-userheader-title">[Shirai Lab]</a></h2></div></td><td class="sites-layout-searchbox  "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/system/app/pages/search" role="search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="このサイトを検索" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-select-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">このサイトを検索</div><div id="sites-searchbox-select-dropdown" class="goog-inline-block goog-flat-menu-button"><div class="goog-inline-block goog-flat-menu-button-caption"></div><div class="goog-inline-block goog-flat-menu-button-dropdown sites-jfk-menu-button-dropdown"> </div></div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container" role="navigation">
+</td>
+</tr>
+</table>
+</div>
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas" role="main">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<A href="/lecture" dir="ltr">Lecture</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr" tabindex="-1" style="outline: none">ICU</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-two-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><font size="6">「コンピュータゲーム」</font><div><font size="6">Computer games <br /></font>ver 2012</div><div><div>Reg No. 11064　Course No. CSC351  5/TH, 6/TH  </div><div><br /></div></div><div>ver 2011</div><div>6/TU,7/TU<br /> (コース番号CSC351)<br />非常勤講師 白井暁彦<br /><br /></div></div></td><td class="sites-layout-tile sites-tile-name-content-2"><div dir="ltr">次の予定に従ってコースを進める。<br /> #1 4/12 （Laval Virtual参加のため休講） <br /> #2 4/19 エンタテイメントシステム概論(1) <br /> #3 4/26 エンタテイメントシステム概論(2) <br /> #4 5/10 次世代ゲーム企画立案(1) <br />#5 5/17 次世代ゲーム企画立案(2) <br /> #6 5/24 次世代ゲーム企画立案(3) 一次発表会 <br />#7 5/31 エンタテイメントシステムの未来(1) <br />#8 6/7 エンタテイメントシステムの未来(2) <br /> #9 6/14  発表会・Conclusion<br />  　 課題およびレポートによる評価、試験は実施しない。 <br /></div></td></tr></tbody></table>
+</div> 
+<div xmlns="http://www.w3.org/1999/xhtml" class="announcements">
+<div class="sites-clear" style="padding: 0 0 5px;">
+<img src="/_/rsrc/1595488769000/system/app/images/icon_feed.gif" style="border:none; vertical-align: middle;" />
+<a href="http://www.shirai.la/lecture/icu/posts.xml">
+                      投稿を登録</a>
+</div>
+<div class="announcement">
+<h4><a href="/lecture/icu/20120524" dir="ltr">20120524</a></h4>
+<span class="timestamp">
+<script type="text/javascript">
+      //<![CDATA[
+        function JOT_insertRelDate(timestamp, absTimeStr, isSiteLocale, dir) {
+          var relTimeStr = JOT_formatRelativeToNow(timestamp, isSiteLocale);
+          if (relTimeStr) {
+            if (isSiteLocale) {
+              document.write('<span timestamp="' + timestamp + '" issitelocale="' + isSiteLocale +
+                '" title="' + absTimeStr + '" dir="' + dir + '">' + relTimeStr + '<' + '/span>');
+            } else {
+              document.write('<span timestamp="' + timestamp + '" title="' + absTimeStr +
+              '" dir="' + dir + '">' + relTimeStr + '<' + '/span>');
+            }
+          } else {
+            document.write(absTimeStr);
+          }
+        }
+      //]]>
+</script>
+<span dir="ltr">2012/05/23 19:39</span> に Akihiko Shirai が投稿
+
+                    
+                         
+                        <span class="updatedTime">
+                          [
+  
+  
+  
+  
+  <span dir="ltr">2012/05/23 19:53</span> に更新しました
+]
+                        </span>
+</span>
+<p>
+<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">さて本日の「コンピュータゲーム」講義ですが、予定通り「次世代ゲーム企画立案」の最終回を行います。<div><br /></div><div>IVRC2012投稿にかかわらず、前回から更新があった方は<a href="https://www.facebook.com/groups/icucg2012/" target="_blank">facebookグループ</a>にご一報＆メールで企画書類のPDFをお送り下さい。</div><div><br /></div><div>後半は新技術、特許についてを予定しています。</div><div><br /></div><div>その他、次週以降やりたいこと(制作・開発？)、質問も受け付けます。</div><div><br /></div><div><br /></div></div></td></tr></tbody></table>
+</p>
+<div class="postfooter">
+<p>
+</p>
+</div>
+</div>
+<div class="announcement">
+<h4><a href="/lecture/icu/icucg2012started" dir="ltr">ICUCG2012 started</a></h4>
+<span class="timestamp">
+<span dir="ltr">2012/04/11 23:11</span> に Akihiko Shirai が投稿
+
+                    
+                  </span>
+<p>
+<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div>"Computer Games"</div><div>Reg No. 11064　Course No. CSC351  5/TH, 6/TH  </div><div>初回講義ですので出席を兼ねて自己紹介をお願いいたします。</div><div>フォームURL http://j.mp/ICUCG20120412  </div><div><br /></div><div>白井暁彦  Akihiko SHIRAI</div><div><br /></div></div></td></tr></tbody></table>
+</p>
+<div class="postfooter">
+<p>
+</p>
+</div>
+</div>
+<div class="announcement">
+<h4><a href="/lecture/icu/20110625" dir="ltr">Summary（採点中）</a></h4>
+<span class="timestamp">
+<span dir="ltr">2011/06/25 22:11</span> に Akihiko Shirai が投稿
+
+                    
+                         
+                        <span class="updatedTime">
+                          [
+  
+  
+  
+  
+  <span dir="ltr">2011/06/26 11:10</span> に更新しました
+]
+                        </span>
+</span>
+<p>
+<table cellspacing="0" class="sites-layout-name-two-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div><font size="5" style="font-family:Arial,sans-serif;white-space:pre-wrap">最終課題】</font>
+
+講義の感想に加えて、
+以下の課題から1つ以上選んでメールで提出してください。
+
+(1) Processingでゲームを作る
+　例えばTopics&gt;Motion&gt;Collisionから
+　ボールの動きを変えたり、ゲームオーバーをつくったり。(3)のWiiRemoteと組み合わせても良いです。
+
+(2)「できるだけ短いコードで虹を描く」
+ 自称「プログラミングが苦手な人」むけ課題。このサイトの何処かにヒントがあります。 </div>
+<div><a href="http://www.shirai.la/library/processing/RainbowChallenge">http://www.shirai.la/library/processing/RainbowChallenge</a></div>
+<div>【OpenProcessingでのクラスルームを作成しました】<br />
+</div>
+<div><span style="font-family:Arial,sans-serif;white-space:pre-wrap"><a href="http://www.openprocessing.org/classrooms/?classroomID=739">http://www.openprocessing.org/classrooms/?classroomID=739</a>
+<br />
+</span></div>
+<div><span style="font-family:Arial,sans-serif;white-space:pre-wrap">(3) Wiiリモコンで作品制作
+　「WiiRemoteプログラミング」６章参照。
+　この書籍のサンプルがダウンロードできます。
+　<a href="http://ssl.ohmsha.co.jp/cgi-bin/menu.cgi?ISBN=978-4-274-06750-1" style="color:rgb(0,0,204)" target="_blank">http://ssl.ohmsha.co.jp/cgi-bin/menu.cgi?ISBN=978-4-274-06750-1</a>
+
+(4) Unity3D レポート
+　No.07 / No.11 / No.15 / No.23 / No.29 インストールされています
+　目印として、前面の左下に小さな黄色い丸シールを貼ってあります。
+　チュートリアルを試してみて、オリジナル作品を作るまでのレポートをお願いします。
+
+(5) Wonderflで作品
+　 <a href="http://wonderfl.net/" style="color:rgb(0,0,204)" target="_blank">http://wonderfl.net/</a>
+　アカウントを作成して、気に入った作品をひとつ選んでフォークして開発を開始してください。
+　GmailなどのアカウントがあればOpenIDで利用できます。
+
+(6) 「OpenProcessing」をレポートする 
+　Webで利用できる「OpenProcessing」をレポートしてください 
+　<a href="http://www.processing.org/" style="color:rgb(0,0,204)" target="_blank">http://www.processing.org/</a>
+　MyClockをOpenProcessingに移植してみましょう</span></div>
+<div></div>
+<div>　【OpenProcessingでのクラスルームを作成しました】<br />
+</div>
+<div><span style="font-family:Arial,sans-serif;white-space:pre-wrap"> <a href="http://www.openprocessing.org/classrooms/?classroomID=740">http://www.openprocessing.org/classrooms/?classroomID=740</a>
+
+【短縮URL】　<a href="http://bit.ly/icucg20110614" style="color:rgb(0,0,204)" target="_blank">http://bit.ly/icucg20110614</a>
+このフォームは本日中に投稿してください
+課題は6/25までメールで受け付けます。</span></div>
+<div><span style="font-family:Arial,sans-serif;white-space:pre-wrap"><br />
+</span></div>
+<div><span style="font-family:Arial,sans-serif;white-space:pre-wrap">
+<hr />
+</span></div>
+<div><br />
+</div>
+<div><br />
+</div>
+小林万純<br />
+<div><br />
+</div>
+<div>
+<div style="display:inline;float:left;margin-top:5px;margin-right:10px;margin-bottom:0px;margin-left:0px"><a href="http://www.shirai.la/lecture/icu/20110625/Kobayashi.png?attredirects=0" imageanchor="1"><img border="0" height="141" src="http://www.shirai.la/_/rsrc/1309065803088/lecture/icu/20110625/Kobayashi.png?height=141&amp;width=320" width="320" /></a></div>
+<span style="border-collapse:collapse;font-family:arial,sans-serif"><br />
+Wonderflのサウンドビジュアライザーをforkして背景色や音をかえましたが、どうや<br />
+らこの間のSkydriveはURLが変わるらしく、すぐなくなってしまいました。Googleのsiteにあげてみましたが、どうしてもうまくいきませんでした。それで、もとのサウンドビジュアライザーをforkしたら、それだけでCouldn't Buildとなってしまい、どこが間違っているのかさっぱりわかりませんでした。そのジタバタした跡はwonderflのアカウント、<a href="http://wonderfl.net/user/masumi91490" target="_blank">masumi91490</a>のコードをみていただければわかると思います。<br />
+<br />
+Wonderflでは今日に間に合いそうになかったので、同じActionScript3.0だからということで、flashの体験版をダウンロードしてやってみました。サウンドを形にすることがしたかったので、図書館で借りた「Adobe Flash CS3 詳細 ActionScript3.0入門ノート」を参考に、wonderflで使う予定だったkylie.mp3をいれました。また、SmoothSteppersというロゴ（ストリートダンスサークル名）を田代さんからいただき、使用しました。これは７月５日にあるダンスイベントの広告に使用したもので、もう少ししっかり作り直して本番に使えたらなと思っています。あとipodmanはドラッグしたら動くスクリプトと、クリックしたらスケールと場所が変わるというスクリプトを入れました。<br />
+</span><br />
+</div>
+<div>
+<hr />
+</div>
+<div>
+<div style="text-align:right"><font size="5">奥平公美</font></div>
+<div style="text-align:right"><a href="http://twitter.com/#!/conti_bon" rel="nofollow" target="_blank"><img border="0" height="100" src="http://twimg.info/src/?id=conti_bon" width="67" /></a></div>
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:228px;"><div class="sites-embed-content sites-embed-type-ggs-gadget"><iframe width="228" height="280" scrolling="no" frameborder="0" id="1215374047" name="1215374047" allowtransparency="true" class="igm" src="//mj89sp3sau2k7lj1eg3k40hkeppguj6j-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.gstatic.com/sites-gadgets/iframe/iframe.xml&amp;container=enterprise&amp;view=default&amp;lang=ja&amp;country=ALL&amp;sanitize=0&amp;v=44828a9a7590b4bf&amp;libs=core&amp;parent=http://www.shirai.la/lecture/icu#up_scroll=no&amp;up_iframeURL=http://www.openprocessing.org/visuals/iframe.php?visualID%3D30292%26width%3D200%26height%3D200%26border%3Dtrue&amp;st=e%3DAIHE3cDn21qGG1XrjcDX8II6XNXD55v8MnxpcwO2fo%252BhI5G86KXydaHGB3CGdo5Wrs7qKk60dCIezfi4IIl9dw9O%252FghK2mgmsJjbi9O%252Fea%252FzjQ5Y4Wh%252FDDy%252F3cuDw0n7xS9SYff6RpSM%26c%3Denterprise&amp;rpctoken=-6426698893786686246"></iframe></div></div></div>
+</div>
+<div>
+<hr />
+<span style="font-size:x-large">J.N.</span><a href="http://twitter.com/#!/junkon336" rel="nofollow" target="_blank"><img border="0" height="100" src="http://twimg.info/src/?id=junkon336" width="67" /></a></div>
+<div>
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:328px;"><div class="sites-embed-content sites-embed-type-ggs-gadget"><iframe width="328" height="280" scrolling="no" frameborder="0" id="1560670271" name="1560670271" allowtransparency="true" class="igm" src="//mj89sp3sau2k7lj1eg3k40hkeppguj6j-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.gstatic.com/sites-gadgets/iframe/iframe.xml&amp;container=enterprise&amp;view=default&amp;lang=ja&amp;country=ALL&amp;sanitize=0&amp;v=44828a9a7590b4bf&amp;libs=core&amp;parent=http://www.shirai.la/lecture/icu#up_scroll=no&amp;up_iframeURL=http://www.openprocessing.org/visuals/iframe.php?visualID%3D30296%26width%3D300%26height%3D200%26border%3Dtrue&amp;st=e%3DAIHE3cBMag0Yz76FzY1XSAoGqvoS5yvSNqR%252FNaW1SeDXrRFc8egX1fmfq7tXqEzYMVYRiXE3TMEMruocG0B%252F4ovFCwI2uwXe0rDByL7DrmnsN1FUt%252BuJuNybsDNBPf9o7MS%252FPHt7aeQK%26c%3Denterprise&amp;rpctoken=-6426698893786686246"></iframe></div></div></div>
+<br />
+</div>
+<div>
+<hr />
+<br />
+</div>
+<div><div style="text-align:right"><span style="font-size:x-large">坂田純</span></div>
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:228px;"><div class="sites-embed-content sites-embed-type-ggs-gadget"><iframe width="228" height="280" scrolling="no" frameborder="0" id="565464371" name="565464371" allowtransparency="true" class="igm" src="//mj89sp3sau2k7lj1eg3k40hkeppguj6j-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.gstatic.com/sites-gadgets/iframe/iframe.xml&amp;container=enterprise&amp;view=default&amp;lang=ja&amp;country=ALL&amp;sanitize=0&amp;v=44828a9a7590b4bf&amp;libs=core&amp;parent=http://www.shirai.la/lecture/icu#up_scroll=no&amp;up_iframeURL=http://www.openprocessing.org/visuals/iframe.php?visualID%3D30297%26width%3D200%26height%3D200%26border%3Dtrue&amp;st=e%3DAIHE3cA0nOcEO6KhfC0w%252BQwWwi6%252BeBNjtu6SZsKR0GHbDROixH02FQH7%252BXDtUGuZ3G1ZVl90Auf9iqpreIq8qP1U2riAzlynXTbyBrjV9IFJzyopleqB3vgok6tEPHq4TWpNuYJCbSIZ%26c%3Denterprise&amp;rpctoken=-6426698893786686246"></iframe></div></div></div></div>
+<div><br />
+</div></div></td><td class="sites-layout-tile sites-tile-name-content-2"><div dir="ltr"><div style="text-align:right"><font size="5">O.R.</font></div>
+<a href="http://twitter.com/#!/RyosukeBalboa" rel="nofollow" target="_blank"><img border="0" height="100" src="http://twimg.info/src/?id=RyosukeBalboa" width="67" /></a>
+<div style="text-align:right"><font face="arial, sans-serif"><br />
+</font></div>
+<div style="text-align:right"><span style="font-family:arial,sans-serif">
+<div style="display:block;text-align:left"><a href="http://wonderfl.net/c/hYgf" imageanchor="1" target="_blank"><img border="0" height="196" src="http://www.shirai.la/_/rsrc/1309076532455/lecture/icu/20110625/OhamiHeavyRain.png?height=196&amp;width=200" width="200" /></a></div>
+</span>
+<div style="text-align:left"><a href="http://wonderfl.net/c/hYgf">http://wonderfl.net/c/hYgf</a></div>
+<div style="text-align:left"><br />
+</div>
+<div style="text-align:left">
+<hr />
+<br />
+</div>
+<div style="text-align:right"><font size="5">K.M.</font></div>
+<div style="text-align:left">
+<div style="display:inline;float:left;margin-top:5px;margin-right:10px;margin-bottom:0px;margin-left:0px"><a href="http://www.shirai.la/lecture/icu/20110625/Shiro0330.png?attredirects=0" imageanchor="1"><img border="0" height="200" src="http://www.shirai.la/_/rsrc/1309108872710/lecture/icu/20110625/Shiro0330.png?height=200&amp;width=196" width="196" /></a></div>
+<div style="display:block;text-align:left"><a href="http://wonderfl.net/c/7LYT">http://wonderfl.net/c/7LYT</a></div>
+<span style="border-collapse:collapse;font-family:arial,sans-serif">
+<div>　Myceliumというスクリプトをフォークしました。</div>
+<div>これは画像(クリックで読み込み)の線を菌糸のようにランダムな方向に直線的に伸びていくような変換するものです。</div>
+</span><span style="border-collapse:collapse;font-family:arial,sans-serif">　最初に自分がやろうとしたのは、</span><span style="border-collapse:collapse;font-family:arial,sans-serif">ウェブカメラを起動し写真を撮りそれを変化させようとしました。</span></div>
+<div style="text-align:left"><span style="border-collapse:collapse;font-family:arial,sans-serif">　カメラを起動させ、表示させるところまではうまくいきましたが、シャッターを切るボタンを作り、かつイベント処理する部分が</span><span style="border-collapse:collapse;font-family:arial,sans-serif">どうしてもうまくいかず諦めてしまいました。　（Shiro0330の履歴にも色々残っているので時間があれば見</span><span style="border-collapse:collapse;font-family:arial,sans-serif">てください。）</span></div>
+<div style="text-align:left"><span style="border-collapse:collapse;font-family:arial,sans-serif">　その後、しょうがないのでマイナーチェンジに甘んじようと決めて、菌糸の方向を直線的でなくもっとぐるぐる巻きにすることにしました。</span><span style="border-collapse:collapse;font-family:arial,sans-serif">これには角速度・移動速度を変えることでこれを実現しました。　最初に自動で読み込む写真だとモコモコしてしまうのですが、</span><span style="border-collapse:collapse;font-family:arial,sans-serif">別の写真なら結構面白い写真ができあがると思います。やってみてください。</span><span style="border-collapse:collapse;font-family:arial,sans-serif">
+<div><br />
+</div>
+</span><span style="border-collapse:collapse;font-family:arial,sans-serif">
+<div>/*----------以下は授業のコメントです-----------*/</div>
+<div><br />
+</div>
+<div>　白井先生の授業スタイルや内容はICUのどの教授も教えてくれないような事ばかりでした。</div>
+<div>　（一度社会に出た教授なんてそういないと思います。）</div>
+<div>　もっともICU生が欲しがるような知識や話だったと思います。（C.G.だけでなくメディア概論とかで授業を開いて欲しいです）</div>
+<div><br />
+</div>
+</span><span style="border-collapse:collapse;font-family:arial,sans-serif">　白井先生に教わった事は頭に残るものばかりですが、特にバナナの話が印象的です。</span><span style="border-collapse:collapse;font-family:arial,sans-serif">
+<div>　あの話を聞いて、自分も学習することや色んなものに関心を持っていこう、　固い頭にならないようにしようと誓いました。</div>
+<div><br />
+</div>
+<div>　一学期間ありがとうございました。</div>
+</span><span style="border-collapse:collapse;font-family:arial,sans-serif">
+<div><br />
+</div>
+</span></div>
+</div>
+<div style="text-align:right"><span style="font-family:arial,sans-serif">
+<hr />
+</span></div>
+<div style="text-align:right"><span style="font-family:arial,sans-serif"><font size="5">田代このみ</font></span></div>
+<div style="text-align:right"><a href="http://twitter.com/#!/kentan96" rel="nofollow" target="_blank"><img border="0" height="100" src="http://twimg.info/src/?id=kentan96" width="67" /></a></div>
+<div><font face="arial, sans-serif"><br />
+</font>
+<div><span style="font-family:arial,sans-serif">
+<div style="border:1px dotted">　私が何故この講義を受講したかというと、W3のコースオファリングスで「2011,spring,EMS（←私が専攻しているメジャー）」と検索した際、コンピューターゲームが一覧に載っていたからです。
+実際に受講し始めた頃は、「内容が全然EMSじゃないじゃんっ!!（ノД｀）２単位の割りに課題めっちゃ多いやん!!」といった心境で、ＩＣＵのリベラルアーツのシステムを呪いましたが、後半はとにかくお互いの作品をプレゼンしあうなど、高校の時のような“クラス感”を久々に感じることができ、楽しかったです。
+２単位は適切ではないですね、５６７を使って３単位にすべきです（笑）
+<br />
+</div>
+<div><br />
+</div>
+<div>　選択課題：できるだけ短いコードで虹を描く</div>
+<div>　まじめにやった作品と例のトンチ作品の二つを送ります。</div>
+<div>
+<div style="display:inline;float:left;margin-top:5px;margin-right:10px;margin-bottom:0px;margin-left:0px"><a href="http://www.shirai.la/lecture/icu/20110625/tashiroNizi.png?attredirects=0" imageanchor="1">
+<div style="display:block;text-align:left"><br />
+</div>
+<img border="0" height="200" src="http://www.shirai.la/_/rsrc/1309069000406/lecture/icu/20110625/tashiroNizi.png?height=200&amp;width=144" width="144" /></a></div>
+<br />
+</div>
+<div>　まじめにやった作品で、参考にしたサイトは以下のＵＲＬです。</div>
+</span><font face="arial, sans-serif"><br />
+</font><span style="font-family:arial,sans-serif">
+<div><a href="http://www.cp.cmc.osaka-u.ac.jp/~kikuchi/kougi/simulation2009/processing2.html" style="color:rgb(0,0,204)" target="_blank">http://www.cp.cmc.osaka-u.ac.jp/~kikuchi/kougi/simulati</a></div>
+<div><a href="http://www.cp.cmc.osaka-u.ac.jp/~kikuchi/kougi/simulation2009/processing2.html" style="color:rgb(0,0,204)" target="_blank">on2009/processing2.html</a></div>
+</span><span style="font-family:arial,sans-serif"><img border="0" height="200" src="http://www.shirai.la/_/rsrc/1309069379806/lecture/icu/20110625/TashiroTonchi.png?height=200&amp;width=163" width="163" /> </span></div>
+<div><span style="font-family:arial,sans-serif">　トンチ作品が認められるのであれば、３行で虹（？）を描いた私のコードが一番短いはずです（笑）</span></div>
+<div><font face="arial, sans-serif"><br />
+</font></div>
+<div><font face="arial, sans-serif">
+<hr />
+<br />
+Yutaro KOJIMA</font></div>
+<div>
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:208px;"><div class="sites-embed-content sites-embed-type-ggs-gadget"><iframe width="208" height="250" scrolling="no" frameborder="0" id="1881134693" name="1881134693" allowtransparency="true" class="igm" src="//mj89sp3sau2k7lj1eg3k40hkeppguj6j-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.gstatic.com/sites-gadgets/iframe/iframe.xml&amp;container=enterprise&amp;view=default&amp;lang=ja&amp;country=ALL&amp;sanitize=0&amp;v=44828a9a7590b4bf&amp;libs=core&amp;parent=http://www.shirai.la/lecture/icu#up_scroll=no&amp;up_iframeURL=http://www.openprocessing.org/visuals/iframe.php?visualID%3D30252%26width%3D180%26height%3D170%26border%3Dtrue&amp;st=e%3DAIHE3cAT6o8aEdaxZ3rbL%252BXW3OClvkGbzVEgiGm%252FWzzQbhiWwMQYyjkUt%252F4k22d7xhg0lfVz7eYr2PRXJHNYUquXhgy0BTjjOhNkrivdbdfTkcR8HPTBJFs3Sp1JDvyW6GMOHLWAu2t%252F%26c%3Denterprise&amp;rpctoken=-6426698893786686246"></iframe></div></div></div>
+</div>
+<div><span style="font-family:arial,sans-serif">
+<div><br />
+</div>
+<div><br />
+</div>
+<div>
+<hr />
+</div>
+</span></div>
+<div><font face="arial, sans-serif"><br />
+</font>
+</div>
+<div style="text-align:right"><font size="5">T.K.</font></div>
+<div style="text-align:right"><a href="http://twitter.com/#!/kooozyyy" rel="nofollow" target="_blank"></a><a href="http://twitter.com/#!/kooozyyy" rel="nofollow" target="_blank"><img border="0" height="100" src="http://twimg.info/src/?id=kooozyyy" width="67" /></a></div>
+</div>
+<div style="text-align:right"><br />
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:228px;"><div class="sites-embed-content sites-embed-type-ggs-gadget"><iframe width="228" height="280" scrolling="no" frameborder="0" id="2039549238" name="2039549238" allowtransparency="true" class="igm" src="//mj89sp3sau2k7lj1eg3k40hkeppguj6j-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.gstatic.com/sites-gadgets/iframe/iframe.xml&amp;container=enterprise&amp;view=default&amp;lang=ja&amp;country=ALL&amp;sanitize=0&amp;v=44828a9a7590b4bf&amp;libs=core&amp;parent=http://www.shirai.la/lecture/icu#up_scroll=no&amp;up_iframeURL=http://www.openprocessing.org/visuals/iframe.php?visualID%3D30298%26width%3D200%26height%3D200%26border%3Dtrue&amp;st=e%3DAIHE3cC3svVJ%252FlYyl3dUXGY9TF0l4WaWN36xo7hZpBlKl5F2AtxlOWkoeipHNwFUVC9AzMkvPhV7PWie2ZCzlUrnoawgm5KBFFlr8A5%252BPwDS4DQQTXJ69IAXsQNAI37saliU9BzxdlCA%26c%3Denterprise&amp;rpctoken=-6426698893786686246"></iframe></div></div></div>
+</div>
+<div>processingサンプルリンク<br />
+<a href="/">
+    http://www.taatataa.com/processing.html</a></div>
+<div>
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:508px;"><div class="sites-embed-content sites-embed-type-ggs-gadget"><iframe width="508" height="560" scrolling="no" frameborder="0" id="111006339" name="111006339" allowtransparency="true" class="igm" src="//mj89sp3sau2k7lj1eg3k40hkeppguj6j-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.gstatic.com/sites-gadgets/iframe/iframe.xml&amp;container=enterprise&amp;view=default&amp;lang=ja&amp;country=ALL&amp;sanitize=0&amp;v=44828a9a7590b4bf&amp;libs=core&amp;parent=http://www.shirai.la/lecture/icu#up_scroll=no&amp;up_iframeURL=http://www.openprocessing.org/visuals/iframe.php?visualID%3D30299%26width%3D480%26height%3D480%26border%3Dtrue&amp;st=e%3DAIHE3cBdk99HnMIrkYXAQtR1oyVQg83DCyIvbhKBNE5k6ubR%252BqMtd7Z8FRg2KNTEO6%252FZuCTD6xTK6Ez4ZzYLPgE4iWAY6SUSNsZsPZTfH9H6B%252B7gUT5b7bL%252F%252FEQNwo0Jhwqe7z7bVk36%26c%3Denterprise&amp;rpctoken=-6426698893786686246"></iframe></div></div></div>
+<br />
+    プログラミングの意味が全然わかりませんでしたが、今日少し構造の仕組みがわかったような気がしました。<br />
+    授業には付いていけなかったかもしれませんが、みんなの技術に触発され、いい経験ができました。<br />
+    ありがとうございます。</div>
+<div><br />
+</div></div></td></tr></tbody></table>
+</p>
+<div class="postfooter">
+<p>
+                    
+                    
+                        | 添付ファイル:
+                        
+                          
+                          <span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_page.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110625/Kobayashi_SoundGrid.zip" rel="noopener noreferrer" dir="ltr" target="_blank">Kobayashi_SoundGrid.zip</a>
+</span>
+<span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_pdf.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110625/NK_%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%B2%E3%83%BC%E3%83%A0%E6%9C%80%E7%B5%82%E8%AA%B2%E9%A1%8C.pdf" rel="noopener noreferrer" dir="ltr" target="_blank">NK_コンピュータゲーム最終課題.pdf</a>
+</span>
+<span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_page.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110625/nizi.lzh" rel="noopener noreferrer" dir="ltr" target="_blank">nizi.lzh</a>
+</span>
+<span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_page.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110625/tonchi.lzh" rel="noopener noreferrer" dir="ltr" target="_blank">tonchi.lzh</a>
+</span>
+</p>
+</div>
+</div>
+<div class="announcement">
+<h4><a href="/lecture/icu/20110614" dir="ltr">2011/06/14</a></h4>
+<span class="timestamp">
+<span dir="ltr">2011/06/14 0:21</span> に Akihiko Shirai が投稿
+
+                    
+                         
+                        <span class="updatedTime">
+                          [
+  
+  
+  
+  
+  <span dir="ltr">2011/06/14 1:35</span> に更新しました
+]
+                        </span>
+</span>
+<p>
+<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><span style="border-collapse:collapse;font-family:arial,sans-serif">講義の前半で、簡単なプレゼンテーションをして頂く予定です。<br />提出した方も、していない方もご準備お願いいたします。<br /><br />後半は、最終課題です。選択です。<br /><br /></span><div><div><div><div><div><div><div><div><div><div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">【最終課題】</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse"><br /></span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">講義の感想に加えて、</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">以下の課題から1つ以上選んでメールで提出してください。</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse"><br /></span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">(1) Processingでゲームを作る</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">　例えばTopics&gt;Motion&gt;Collisionから</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">　ボールの動きを変えたり、ゲームオーバーをつくったり。(3)のWiiRemoteと組み合わせても良いです。</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse"><br /></span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">(2)「できるだけ短いコードで虹を描く」</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse"> 自称「プログラミングが苦手な人」むけ課題。このサイトの何処かにヒントがあります。</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse"><br /></span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">(3) Wiiリモコンで作品制作</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">　「WiiRemoteプログラミング」６章参照。</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">　この書籍のサンプルがダウンロードできます。</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse"> <a href="http://ssl.ohmsha.co.jp/cgi-bin/menu.cgi?ISBN=978-4-274-06750-1">http://ssl.ohmsha.co.jp/cgi-bin/menu.cgi?ISBN=978-4-274-06750-1</a></span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse"><br /></span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">(4) Unity3D レポート</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">　No.07 / No.11 / No.15 / No.23 / No.29 インストールされています</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">　目印として、前面の左下に小さな黄色い丸シールを貼ってあります。</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">　チュートリアルを試してみて、オリジナル作品を作るまでのレポートをお願いします。</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse"><br /></span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">(5) Wonderflで作品</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse"> <a href="http://wonderfl.net/">http://wonderfl.net/</a></span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">　アカウントを作成して、気に入った作品をひとつ選んでフォークして開発を開始してください。</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">　GmailなどのアカウントがあればOpenIDで利用できます。</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse"><br /></span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">(6) 「OpenProcessing」をレポートする </span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">　Webで利用できる「OpenProcessing」をレポートしてください </span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse"> <a href="http://www.processing.org/">http://www.processing.org/</a></span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">　MyClockをOpenProcessingに移植してみましょう</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse"><br /></span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">【参加者募集】</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse"><br /></span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">　6/22-24 産業用VR展</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse"> <a href="http://www.shirai.la/topics/info/IVRC20110622">http://www.shirai.la/topics/info/IVRC20110622</a></span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">　22日にツアー実施予定です</span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse"><br /></span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">【出席】　<a href="http://bit.ly/icucg20110614">http://bit.ly/icucg20110614</a></span></font></div><div><font face="arial, sans-serif"><span style="border-collapse:collapse"><br /></span></font></div><div style="border-collapse:collapse;font-family:arial,sans-serif"><br /></div></div><div><span style="border-collapse:collapse;font-family:arial,sans-serif"><br /></span></div></div></div></div></div></div></div></div></div></div></div></td></tr></tbody></table>
+</p>
+<div class="postfooter">
+<p>
+</p>
+</div>
+</div>
+<div class="announcement">
+<h4><a href="/lecture/icu/20110607" dir="ltr">2011/06/07</a></h4>
+<span class="timestamp">
+<span dir="ltr">2011/06/13 18:44</span> に Akihiko Shirai が投稿
+
+                    
+                         
+                        <span class="updatedTime">
+                          [
+  
+  
+  
+  
+  <span dir="ltr">2011/06/14 3:01</span> に更新しました
+]
+                        </span>
+</span>
+<p>
+<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">Processing編、つづき。
+<div><br />
+</div>
+<div>MyClockを完成させよう。</div>
+<div>&lt;提出済み&gt;
+</div><div>岩崎優介</div><div><span style="border-collapse:collapse;font-family:arial,sans-serif"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-family:arial,sans-serif;font:inherit" valign="top">田代このみ<br />奥平公実</td></tr></tbody></table></span></div>
+<div>小林万純</div>
+<div>小島朋実<br />
+</div>大網亮<div><div style="display:block;text-align:left"><a href="http://www.shirai.la/lecture/icu/20110607/DoyaClock.png?attredirects=0" imageanchor="1"><img border="0" height="145" src="http://www.shirai.la/_/rsrc/1308045090702/lecture/icu/20110607/DoyaClock.png?height=145&amp;width=200" width="200" /></a></div><br /> 
+<div><span style="border-collapse:collapse;font-family:arial,sans-serif">中川絢子</span>
+</div><div><font face="arial, sans-serif"><span style="border-collapse:collapse">小嶋優太朗</span></font></div><div><span style="border-collapse:collapse;font-family:arial,sans-serif">嶺岸カズヒロ</span></div><div><span style="border-collapse:collapse;color:rgb(0,104,28);font-family:arial,sans-serif;font-weight:bold;white-space:nowrap">Ohki Yoshitake</span></div></div></div></td></tr></tbody></table>
+</p>
+<div class="postfooter">
+<p>
+                    
+                    
+                        | 添付ファイル:
+                        
+                          
+                          <span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_page.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110607/121162_YusukeIwasaki_MindbendingClock.zip" rel="noopener noreferrer" dir="ltr" target="_blank">121162_YusukeIwasaki_MindbendingClock.zip</a>
+</span>
+<span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_page.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110607/121579TashiroClock.lzh" rel="noopener noreferrer" dir="ltr" target="_blank">121579TashiroClock.lzh</a>
+</span>
+<span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_page.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110607/131183%E5%B0%8F%E6%9E%97%E4%B8%87%E7%B4%94myClock.zip" rel="noopener noreferrer" dir="ltr" target="_blank">131183小林万純myClock.zip</a>
+</span>
+<span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_page.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110607/131199%E5%B0%8F%E5%B3%B6%E6%9C%8B%E5%AE%9Fmy_clock.zip" rel="noopener noreferrer" dir="ltr" target="_blank">131199 小島朋実my_clock.zip</a>
+</span>
+<span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_page.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110607/131313_KoichiroNarita_DorokeiClock.zip" rel="noopener noreferrer" dir="ltr" target="_blank">131313_KoichiroNarita_DorokeiClock.zip</a>
+</span>
+<span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_page.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110607/131336%E5%A4%A7%E7%B6%B2%E4%BA%AE.zip" rel="noopener noreferrer" dir="ltr" target="_blank">131336大網亮.zip</a>
+</span>
+<span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_page.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110607/131732_Yutaro_MyClock.lzh" rel="noopener noreferrer" dir="ltr" target="_blank">131732_Yutaro_MyClock.lzh</a>
+</span>
+<span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_page.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110607/MINEGISHI-KazushiroMyclock.rar" rel="noopener noreferrer" dir="ltr" target="_blank">MINEGISHI-KazushiroMyclock.rar</a>
+</span>
+<span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_page.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110607/NakagawaMy_clock3.zip" rel="noopener noreferrer" dir="ltr" target="_blank">NakagawaMy_clock3.zip</a>
+</span>
+<span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_page.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110607/OhkiYoshitake_MyClock.zip" rel="noopener noreferrer" dir="ltr" target="_blank">OhkiYoshitake_MyClock.zip</a>
+</span>
+<span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_page.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110607/OkudairaKumiClock.zip" rel="noopener noreferrer" dir="ltr" target="_blank">OkudairaKumiClock.zip</a>
+</span>
+<span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_page.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110607/%E4%B8%AD%E5%B7%9D%E7%B5%A2%E5%AD%90My_clock3.zip" rel="noopener noreferrer" dir="ltr" target="_blank">中川絢子My_clock3.zip</a>
+</span>
+</p>
+</div>
+</div>
+<div class="announcement">
+<h4><a href="/lecture/icu/20110531" dir="ltr">2011/05/31</a></h4>
+<span class="timestamp">
+<span dir="ltr">2011/06/13 18:42</span> に Akihiko Shirai が投稿
+
+                    
+                  </span>
+<p>
+<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><span style="font-family:Arial,sans-serif;white-space:pre-wrap">【今週の課題】
+
+Processingの基本！
+Examplesを試してみて、３つほど簡単に紹介しよう。
+＜例＞
+「 Topics→Motion→Bounce
+　ボールが跳ね返るアニメーション。キーボードイベントはない。
+　int size = 60; を大きくするとボールが大きくなる。あまり大きすぎると動かない」
+
+ここ↓で扱っていないものは高得点です
+<a href="http://www.shirai.la/library/processing/examples" style="color:rgb(0,0,204)" target="_blank">http://www.shirai.la/library/processing/examples</a>
+画像を入れたい人はWORDでメール添付お願いします。
+
+締め切りは、6月4日（20時ごろまで）
+
+
+【参加者募集】
+　6/2-3 国立情報学研究所(NII) オープンハウス
+　<a href="http://www.nii.ac.jp/index.php?action=pages_view_main&amp;page_id=317&amp;lang=japanese" style="color:rgb(0,0,204)" target="_blank">http://www.nii.ac.jp/index.php?action=pages_view_main&amp;page_id=317&amp;lang=japanese</a>
+　★６月２日の「フロムソフトウェア見学会とつながってます」もしかしたら自主的な見学とどまるかも
+
+　6/22-24 産業用VR展
+　<a href="http://www.shirai.la/topics/info/IVRC20110622" style="color:rgb(0,0,204)" target="_blank">http://www.shirai.la/topics/info/IVRC20110622</a>
+　22日にツアー実施予定です
+
+【出席URL】　<a href="http://bit.ly/icucg20110531" style="color:rgb(0,0,204)" target="_blank">http://bit.ly/icucg20110531</a></span></div></td></tr></tbody></table>
+</p>
+<div class="postfooter">
+<p>
+                    
+                    
+                        | 添付ファイル:
+                        
+                          
+                          <span dir="ltr">
+<img src="/_/rsrc/1595488769000/system/app/images/attach_icons/icon_word.gif" style="margin: 0 0 -3px;" />
+<a href="/lecture/icu/20110531/121343%E4%B8%AD%E5%B7%9D%E7%B5%A2%E5%AD%90processing%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88.docx" rel="noopener noreferrer" dir="ltr" target="_blank">121343中川絢子processingレポート.docx</a>
+</span>
+</p>
+</div>
+</div>
+<div class="announcement">
+<h4><a href="/lecture/icu/20110524" dir="ltr">2011/05/24</a></h4>
+<span class="timestamp">
+<span dir="ltr">2011/05/24 4:10</span> に Akihiko Shirai が投稿
+
+                    
+                  </span>
+<p>
+<table cellspacing="0" class="sites-layout-name-two-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div>出席URL http://bit.ly/icucg20110524</div><div><br /></div><div>SIGGRAPH2011 Emerging Technologies</div><a href="http://www.siggraph.org/s2011/for_attendees/emerging-technologies">http://www.siggraph.org/s2011/for_attendees/emerging-technologies</a><div><br /></div><div>ATR石黒浩先生</div><div><a href="http://rikunabi-next.yahoo.co.jp/tech/docs/ct_s03600.jsp?p=000923">http://rikunabi-next.yahoo.co.jp/tech/docs/ct_s03600.jsp?p=000923</a></div><div><br /></div><div><br /></div><div>国際生活機能分類(ICF)</div><div><a href="http://www.dinf.ne.jp/doc/japanese/intl/02of/04.html">http://www.dinf.ne.jp/doc/japanese/intl/02of/04.html</a></div><div><br /></div><div><br /></div><div><br /></div><div><br /></div></div></td><td class="sites-layout-tile sites-tile-name-content-2"><div dir="ltr"><span style="font-size:small"><font face="arial, sans-serif"><br /></font></span><div><span style="font-size:small"><font face="arial, sans-serif">RobotPhoneのおはなし</font></span></div><div><a href="http://tachilab.org/modules/projects/robotphone.html"><span style="font-size:small"><font face="arial, sans-serif">http://tachilab.org/modules/projects/robotphone.html</font></span></a></div><div><a href="http://projects.tachilab.org/RobotPHONE/robotphone-j.html"><span style="font-size:small"><font face="arial, sans-serif">http://projects.tachilab.org/RobotPHONE/robotphone-j.html</font></span></a></div><div><span style="font-size:small"><font face="arial, sans-serif"><br /></font></span></div><div><span style="font-size:small"><font face="arial, sans-serif">イワヤ株式会社</font></span></div><div><a href="http://www.iwaya.co.jp/"><span style="font-size:small"><font face="arial, sans-serif">http://www.iwaya.co.jp/</font></span></a></div><div><span style="font-size:small"><font face="arial, sans-serif"><br /></font></span></div><div><h1 style="margin-top:0px;margin-right:0px;margin-bottom:5px;margin-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:initial;border-color:initial;background-image:initial;background-color:transparent;font-weight:bold;height:1.1363em;max-height:1.1363em;line-height:1.1363em;color:rgb(51,51,51);overflow-x:hidden;overflow-y:hidden"><a name="TOC-Crazy-Bear-Watch-Me-project"></a><span dir="ltr" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:initial;border-color:initial;background-image:initial;background-color:transparent" title="Crazy Bear, Watch Me! project"><span style="font-size:small"><font face="arial, sans-serif">Crazy Bear, Watch Me! project</font></span></span></h1><h1 style="margin-top:0px;margin-right:0px;margin-bottom:5px;margin-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:initial;border-color:initial;background-image:initial;background-color:transparent;font-weight:bold;height:1.1363em;max-height:1.1363em;line-height:1.1363em;color:rgb(51,51,51);overflow-x:hidden;overflow-y:hidden"><a name="TOC-http:-www.youtube.com-watch-v-Y_GFyDbs4sI"></a><span dir="ltr" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:initial;border-color:initial;background-image:initial;background-color:transparent" title="Crazy Bear, Watch Me! project"></span><span style="color:rgb(0,0,0);font-weight:normal;line-height:normal;font-size:13px"><a href="http://www.youtube.com/watch?v=Y_GFyDbs4sI"><span style="font-size:small"><font face="arial, sans-serif">http://www.youtube.com/watch?v=Y_GFyDbs4sI</font></span></a></span></h1></div><div><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-on sites-embed" style="width:425px;"><h4 class="sites-embed-title">Crasy Bear</h4><div class="sites-embed-content sites-embed-type-youtube"><iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/Y_GFyDbs4sI?rel=0&amp;wmode=opaque" frameborder="0" allowFullScreen="true" width="425" height="355"></iframe></div></div></div><br /></div></div></td></tr></tbody></table>
+</p>
+<div class="postfooter">
+<p>
+</p>
+</div>
+</div>
+<div class="announcement">
+<h4><a href="/lecture/icu/20110517" dir="ltr">2011/05/17</a></h4>
+<span class="timestamp">
+<span dir="ltr">2011/05/16 5:33</span> に Akihiko Shirai が投稿
+
+                    
+                  </span>
+<p>
+<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div>ICU「コンピュータゲーム」受講生のみなさま。</div><div>非常勤の白井です。</div><div><br /></div><div>「IVRC企画編」ですが、世間的には応募書類を書き始める時期が近づいています。</div><div><a href="http://ivrc.net/2011/call/entry.html">http://ivrc.net/2011/call/entry.html</a></div><div>企画書と企画書を1ページにまとめた梗概（こうがい）が必要です。</div><div><br /></div><div>今回の講義では投稿までを必須としませんが、</div><div>「本気でIVRC2011への参加を考えている！」という人はそろそろ着手してもよいと思います。</div><div><br /></div><div>特に企画書は書いたことがない人が多いと思います。まずは最新の優勝作を見てみるとよいでしょう。</div><div><a href="http://ivrc.net/2011/?plugin=attach&amp;refer=call%2Fexamples&amp;openfile=planning_senseroid.pdf">http://ivrc.net/2011/?plugin=attach&amp;refer=call%2Fexamples&amp;openfile=planning_senseroid.pdf</a></div><div><br /></div><div><br /></div><div><b>企画</b>というのは、ただ面白いことを考えればいいということではありません。</div><div>周りの人々に応援されて、お金や環境、最高のスタッフを集めることが、</div><div>プロデュースの中での重要な作業であり、スケジューリングや調整（みんながYesといえる為の説明や合意のとりつけ）が</div><div>最も重要かつ基本の作業になります。</div><div><br /></div><div>さて、それはそれとしていい企画を進める上で、</div><div>座談会は最小限（やってもいいが宿題を課して持ち寄る形式）、さらにプロトタイプやプログラムなど動くものを持ち寄るといいです。</div><div>そして、この企画書にあるように、イラストやシステム構成図などのキーになる絵をどんどん書いていくことです。</div><div>それを写真にとって埋めていく、次回までに手分けして清書していく…という作業でもどんどんと具現性は高まっていきます。</div><div>＃ミーティングするたびに企画が白紙に戻っているようでは、何のために集まっているのかよくわかりません。</div><div><br /></div><div>次回は、前回の「見開き企画書」をさらに進めて、具体的な指導を進めていきます。</div><div>PowerPoint等で清書できる方は、清書してきていただけますと幸いです。</div><div>また説明の為のビデオ、イラストでもかまいません。</div><div>ちょっとでも手を動かしていくことが、よりよい学びにつながりますので、</div><div>すすめられるチームはどんどん進めてください。</div><div><br /></div><div>もちろんこのMLでやり取りしていただいてもかまいません。</div><div><br /></div><div>また次回の講義は1件1件の企画に時間をかけたいので、</div><div>「こんなことを考えている」という人で、前回発表していない人は、</div><div>ぜひこのMLに頭の中身を流してください。よろしくお願いいたします。</div><div><br /></div></div></td></tr></tbody></table>
+</p>
+<div class="postfooter">
+<p>
+</p>
+</div>
+</div>
+<div class="announcement">
+<h4><a href="/lecture/icu/20110510" dir="ltr">2011/05/10</a></h4>
+<span class="timestamp">
+<span dir="ltr">2011/04/26 3:55</span> に Akihiko Shirai が投稿
+
+                    
+                         
+                        <span class="updatedTime">
+                          [
+  
+  
+  
+  
+  <span dir="ltr">2011/05/10 4:30</span> に更新しました
+]
+                        </span>
+</span>
+<p>
+<table cellspacing="0" class="sites-layout-name-two-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div><font size="6">実世界指向ゲームインタラクション技術</font><br /><br /><div>前回の宿題の仕上がりはいかがでしょうか？</div><div>A3横の見開き企画書（もしくは清書）は提出になりますので、用意してきてくださいね！</div></div><div><br /></div><div><br /></div><div>詳細は紹介できませんでしたが、大学院のときにつくった 「Fantastic Phantom Slipper」。</div><div><a href="http://www.youtube.com/watch?v=JhKwQf2Zsa8">http://www.youtube.com/watch?v=JhKwQf2Zsa8</a></div><div><br /></div><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:425px;"><h4 class="sites-embed-title">Fantastic Phantom Slipper (1997)</h4><div class="sites-embed-content sites-embed-type-youtube"><iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/JhKwQf2Zsa8?rel=0&amp;wmode=opaque" frameborder="0" allowFullScreen="true" width="425" height="355"></iframe></div></div></div><div><br /></div><div>余談ですが、この作品でお世話になった<a href="http://ja.wikipedia.org/wiki/%E8%8D%89%E5%8E%9F%E7%9C%9F%E7%9F%A5%E5%AD%90" target="_blank">草原真知子</a>先生はICUの卒業生でもあります。</div><div>メディアアート、CGの黎明期から国際的に活躍されている白井の大師匠のお一人です。</div><div><br /></div><div><br /></div></div></td><td class="sites-layout-tile sites-tile-name-content-2"><div dir="ltr"><div>５月１０日の講義内容</div><div>・（前回の復習）エンタテイメントシステムとはなにか、遊びを構成する要素とは？</div><div>・「集合知とスパムフィルタ」</div><div>・実世界指向ゲームインタラクション技術</div><div>・プレゼンテーション演習</div><div>　http://bit.ly/icucg20110510</div><div><br /></div>５月１０日の宿題（仮）<div><br /></div><div>・今回のプレゼンテーションを通して、</div><div>・再度企画を深めてみる</div><div>・作品を変更したい、この作品のために貢献したい、という人は名乗り出てください。</div><div>・次回も「最大２分」でプレゼンテーションを行いますので準備してきてください。</div><div><br /></div></div></td></tr></tbody></table>
+</p>
+<div class="postfooter">
+<p>
+</p>
+</div>
+</div>
+<div class="announcement">
+<h4><a href="/lecture/icu/20110426" dir="ltr">2011/04/26</a></h4>
+<span class="timestamp">
+<span dir="ltr">2011/04/25 22:38</span> に Akihiko Shirai が投稿
+
+                    
+                         
+                        <span class="updatedTime">
+                          [
+  
+  
+  
+  
+  <span dir="ltr">2011/04/26 4:13</span> に更新しました
+]
+                        </span>
+</span>
+<p>
+<table cellspacing="0" class="sites-layout-name-two-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><font size="6">コンピュータゲーム#3 エンタテイメントシステム概論(2)</font><div><font size="6"><br /></font>・白井について<br />・エンタテイメントシステムの定義<br />・ラスコー洞窟の壁画はなぜ描かれたのか<br />・遊び研究の歴史<br />・遊びの言語研究<br />
+・遊びの段階説<br />・遊びの成立<br />・現代における問題<br /><br /><font size="5">国際学生対抗VRコンテスト（IVRC）<br /></font><br /></div><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-on sites-embed" style="width:410px;"><h4 class="sites-embed-title">test</h4><div class="sites-embed-object-title" style="display:none;">Google プレゼンテーション</div><div class="sites-embed-content sites-embed-type-presently"><iframe src="http://docs.google.com/present/embed?authkey=CICzno4C&amp;hl=ja&amp;id=0AUSBI_IRgmtIZGZmazc5cGhfMTIxZmdzeDQ3Zjk&amp;size=s" width="410" height="342" title="Google プレゼンテーション" frameborder="0" id="40112208"></iframe></div></div></div><div dir="ltr"><div><br /></div><div><a href="http://www.youtube.com/watch?v=PgF1kT8GQGk">http://www.youtube.com/watch?v=PgF1kT8GQGk</a></div><div><br /></div><div><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-on sites-embed" style="width:425px;"><h4 class="sites-embed-title">[IVRC2010] Annual Report (Short ver.)</h4><div class="sites-embed-content sites-embed-type-youtube"><iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/PgF1kT8GQGk?rel=0&amp;wmode=opaque" frameborder="0" allowFullScreen="true" width="425" height="355"></iframe></div></div></div><br /></div><div><a href="http://www.youtube.com/watch?v=g4SOlv-NS4A">http://www.youtube.com/watch?v=g4SOlv-NS4A</a></div><div><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-on sites-embed" style="width:425px;"><h4 class="sites-embed-title">IVRC2010 (long version)</h4><div class="sites-embed-content sites-embed-type-youtube"><iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/g4SOlv-NS4A?rel=0&amp;wmode=opaque" frameborder="0" allowFullScreen="true" width="425" height="355"></iframe></div></div></div></div><div><div style="text-align:left"><br /></div><div style="text-align:left">これらの動画も参加学生・OBがつくっています。</div><div style="text-align:left"><br /></div><div style="text-align:left">学内説明会用資料　http://bit.ly/ivrc2011bf</div><br /></div><div><br /></div></div></div></td><td class="sites-layout-tile sites-tile-name-content-2 sites-layout-empty-tile"><div dir="ltr"><br /></div></td></tr></tbody></table>
+</p>
+<div class="postfooter">
+<p>
+</p>
+</div>
+</div>
+<div class="sites-clear" style="padding: 0 0 10px 5px;">
+<p>
+<div class="sites-pagination" dir="ltr"><div class="sites-pagination-info" dir="ltr">1-10 of 12</div><div role="button" id="sites-pagination-prev-link-top" class="goog-inline-block jfk-button jfk-button-standard jfk-button-narrow jfk-button-disabled" aria-disabled="true"><span class="sites-camelot-icon sites-pagination-icon-prev"></span></div><div role="button" id="sites-pagination-next-link-top" class="goog-inline-block jfk-button jfk-button-standard jfk-button-narrow jfk-button-disabled" aria-disabled="true"><span class="sites-camelot-icon sites-pagination-icon-next"></span></div></div>
+</p>
+</div>
+</div>
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div id="sites-attachments-container">
+</div>
+</div>
+</div> 
+</td> 
+<td id="sites-chrome-sidebar-right" class="sites-layout-sidebar-right initial" style="width:150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_10462148953229189" class="sites-sidebar-plusone-wrapper"><div class="g-plusone" data-count="true" data-size="standard" data-source="google:sites"></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_9731385167688131" class="sites-embed" role="complementary"><h4 class="sites-embed-title">Links</h4><div class="sites-embed-content sites-embed-content-sidebar-textbox"><div dir="ltr"><div style="text-align:center">日本語Blog</div><div style="text-align:center"><a href="http://blog.shirai.la">blog.shirai.la</a></div><div style="text-align:center">in Facebook</div><div style="text-align:center"><a href="http://j.mp/FBShiraiLab" target="_blank">白井研究室</a></div></div></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotId="navList" class="has-expander"><li class="topLevel nav-first parent " wuid="gx:7004cc5b3412c7a6"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/home" jotId="wuid:gx:7004cc5b3412c7a6" class="sites-navigation-link topLevel">Welcome</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/home/access" jotId="wuid:gx:2934337c7a6eac08" class="sites-navigation-link">Access</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/home/admission" jotId="wuid:gx:701efce1755559fa" class="sites-navigation-link">Admission:Ph.D</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/home/contacts" jotId="wuid:gx:478ee3a58bc75fa" class="sites-navigation-link">Contacts</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/home/philosophy" jotId="wuid:gx:1f915277b8a7a272" class="sites-navigation-link">Entertainment system engineering and design evaluation</a></div></li></ul></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/downloads" jotId="wuid:gx:1cbe5af17863d8b3" class="sites-navigation-link topLevel">Download</a></div></li><li class="topLevel parent " wuid="gx:6e73ffca0b47a9f4"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/event" jotId="wuid:gx:6e73ffca0b47a9f4" class="sites-navigation-link topLevel">Event</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/event/dcexpo" jotId="wuid:gx:2c41cf18dabf0287" class="sites-navigation-link">DCEXPO</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/event/ggj" jotId="wuid:gx:39cb8305308a504b" class="sites-navigation-link">GlobalGameJam</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/event/lavalvirtual" jotId="wuid:gx:797ee3216de08be3" class="sites-navigation-link">LavalVirtual</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/event/KAIT" jotId="wuid:gx:7d856baf6adc4f00" class="sites-navigation-link">幾徳祭</a></div></li></ul></li><li class="topLevel parent " wuid="gx:1f9b332942d4b9da"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/ivrc" jotId="wuid:gx:1f9b332942d4b9da" class="sites-navigation-link topLevel">IVRC - KFC</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/ivrc/ishadow" jotId="wuid:gx:229d42cdf84c4147" class="sites-navigation-link">I Shadow</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/ivrc/keito" jotId="wuid:gx:682560135006cdf4" class="sites-navigation-link">keito</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/ivrc/hitomebore" jotId="wuid:gx:59853bacc6473a" class="sites-navigation-link">ひとめぼれ実験装置</a></div></li></ul></li><li class="topLevel parent " wuid="gx:4a22671e9f6b0578"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/kfc" jotId="wuid:gx:4a22671e9f6b0578" class="sites-navigation-link topLevel">KFC</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/kfc/2010" jotId="wuid:gx:13e7bb4fba6d50a" class="sites-navigation-link">Kait Fight Club 2010</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/kfc/2011" jotId="wuid:gx:30d73e73c66c50a7" class="sites-navigation-link">KAIT Fight Club 2011</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/kfc/kfc2012" jotId="wuid:gx:2f2a67d8eadee0be" class="sites-navigation-link">KFC2012</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/kfc/kma" jotId="wuid:gx:759658f9cc2897f0" class="sites-navigation-link">拡散性ミリオン日誌</a></div></li></ul></li><li class="topLevel parent " wuid="gx:69c550fc63bd86f9"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/lecture" jotId="wuid:gx:69c550fc63bd86f9" class="sites-navigation-link topLevel">Lecture</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/lecture/seminar" jotId="wuid:gx:6ffc8cc087f35d8b" class="sites-navigation-link">3年セミナーI/II</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/lecture/comparch" jotId="wuid:gx:2e20a08d462ac4b8" class="sites-navigation-link">CompArch</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/lecture/entsys" jotId="wuid:gx:5ee72878f92d4a22" class="sites-navigation-link">EntSys</a></div></li><li class=""><div class="current-bg" jotId="wuid:gx:6f1dcfd5f3fbc106" dir="ltr" style="padding-left: 38px;">ICU</div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/lecture/masterent" jotId="wuid:gx:1ae4748e5c7c9e4a" class="sites-navigation-link">MasterEnt</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/lecture/mediaart" jotId="wuid:gx:480149c10b97a5d6" class="sites-navigation-link">MediaArt</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/lecture/processing" jotId="wuid:gx:e51c62dc8869910" class="sites-navigation-link">Processing</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/lecture/special" jotId="wuid:gx:2457f1d4b5091c4" class="sites-navigation-link">special</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/lecture/titech" jotId="wuid:gx:65cfca370aa98689" class="sites-navigation-link">TITECH-メディアアート技法</a></div></li></ul></li><li class="topLevel parent " wuid="gx:66baad3df49d5814"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/library" jotId="wuid:gx:66baad3df49d5814" class="sites-navigation-link topLevel">Library</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/library/bookshelf" jotId="wuid:gx:60f626c8f7a33b30" class="sites-navigation-link">Bookshelf</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/library/googleappsscript" jotId="wuid:gx:2e954005aec7fb28" class="sites-navigation-link">GoogleAppsScript</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/library/processing" jotId="wuid:gx:5c2ec9d640a84ac2" class="sites-navigation-link">Processing</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/library/siggraph" jotId="wuid:gx:4766438d8accddcc" class="sites-navigation-link">SIGGRAPH Library</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/library/visitlog" jotId="wuid:gx:2bd93e0eca417df" class="sites-navigation-link">VisitLog</a></div></li></ul></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/card" jotId="wuid:gx:1a09d586179266fb" class="sites-navigation-link topLevel">Nice to meet you!</a></div></li><li class="topLevel parent " wuid="gx:6f301b0927bb10c6"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/project" jotId="wuid:gx:6f301b0927bb10c6" class="sites-navigation-link topLevel">Projects</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/project/cartoonect" jotId="wuid:gx:6140ac56335c1dd" class="sites-navigation-link">CartooNect</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/project/exfield" jotId="wuid:gx:7330f708eac4b12a" class="sites-navigation-link">ExField</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/project/expixel" jotId="wuid:gx:3b482ce8270a5b0b" class="sites-navigation-link">ExPixel: PixelShader for multiplex-image hiding in consumer 3D flat panels</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/project/face-a-la-mode" jotId="wuid:gx:5ae7606d61b39a82" class="sites-navigation-link">face a la mode</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/project/kinect" jotId="wuid:gx:5bf91070db4e9bd2" class="sites-navigation-link">KINECT</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/project/lovepress" jotId="wuid:gx:8af3d54bcc54a88" class="sites-navigation-link">LovePress++</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/project/manga" jotId="wuid:gx:3c1cc30b81d148d7" class="sites-navigation-link">Manga Generator</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/project/mwad" jotId="wuid:gx:574d8b558420bb3b" class="sites-navigation-link">Multiplex World Augmentation Display</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/project/paraoke" jotId="wuid:gx:2c41cc483ad9b9fd" class="sites-navigation-link">PARAOKE</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/project/realbaby" jotId="wuid:gx:16b41616d016d546" class="sites-navigation-link">Real Baby - Real Family</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/project/resbe" jotId="wuid:gx:287f9f90bbb48405" class="sites-navigation-link">ResBe</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/project/agora2010" jotId="wuid:gx:2307714abf8b8771" class="sites-navigation-link">Science Agora 2010</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/project/scritter" jotId="wuid:gx:cdd03d7e6b9ff4" class="sites-navigation-link">Scritter series</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/project/status" jotId="wuid:gx:7f1a830fc8fdadb6" class="sites-navigation-link">status</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/project/wiiremote" jotId="wuid:gx:3968c2612485ca40" class="sites-navigation-link">WiiRemote</a></div></li></ul></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/publication" jotId="wuid:gx:36175a305728b9b4" class="sites-navigation-link topLevel">Publication</a></div></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/schedule" jotId="wuid:gx:26eae9d33884eba2" class="sites-navigation-link topLevel">Schedule</a></div></li><li class="topLevel parent " wuid="gx:3aa7f49181129ae7"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/topics" jotId="wuid:gx:3aa7f49181129ae7" class="sites-navigation-link topLevel">Topics</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/topics/info" jotId="wuid:gx:5272e6c77c2ea6f5" class="sites-navigation-link">Info</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/topics/news" jotId="wuid:gx:2fc418c80875738f" class="sites-navigation-link">News</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/topics/visitorlog" jotId="wuid:gx:4aecf0353456374c" class="sites-navigation-link">VisitorLog</a></div></li></ul></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:1e562010dba0289a" class="sites-navigation-link topLevel">サイトマップ</a></div></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/system/app/pages/recentChanges" jotId="wuid:gx:e583624a578e7a0" class="sites-navigation-link topLevel">最近の更新履歴</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_5466367304325104" class="sites-embed" role="complementary"><h4 class="sites-embed-title">最近の更新履歴</h4><div class="sites-embed-content sites-sidebar-recent-activity"><ul><li><a jotid="wuid:gx:1f915277b8a7a272" dir="ltr" href="http://www.shirai.la/home/philosophy">Entertainment system engineering and design evaluation</a><div><span class="sites-text-secondary">Akihiko Shirai 編集</span></div></li><li><a jotid="wuid:gx:2934337c7a6eac08" dir="ltr" href="http://www.shirai.la/home/access">Access</a><div><span class="sites-text-secondary">Akihiko Shirai 編集</span></div></li><li><a jotid="wuid:gx:478ee3a58bc75fa" dir="ltr" href="http://www.shirai.la/home/contacts">Contacts</a><div><span class="sites-text-secondary">Akihiko SHIRAI 編集</span></div></li><li><a jotid="wuid:gx:16b41616d016d546" dir="ltr" href="http://www.shirai.la/project/realbaby">Real Baby - Real Family</a><div><span class="sites-text-secondary">Akihiko Shirai 編集</span></div></li><li><a jotid="wuid:gx:16b41616d016d546" dir="ltr" href="http://www.shirai.la/project/realbaby">RealBaby</a><div><span class="sites-text-secondary">Akihiko Shirai 作成</span></div></li><li class="sites-sidebar-recent-activity-viewall"><a href="/system/app/pages/recentChanges">View All</a></li></ul></div></div>
+</td>
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter" role="navigation"><p><a class="sites-system-link" href="https://accounts.google.com/ServiceLogin?continue=http://sites.google.com/a/shirai.la/www/lecture/icu&amp;service=jotspot">Sign in</a><span aria-hidden="true">|</span><a class="sites-system-link" href="/system/app/pages/recentChanges">Recent Site Activity</a><span aria-hidden="true">|</span><a class="sites-system-link" href="http://sites.google.com/a/shirai.la/www/system/app/pages/reportAbuse" target="_blank">Report Abuse</a><span aria-hidden="true">|</span><a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a><span aria-hidden="true">|</span><span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com/site">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/13edd3/system/js/jot_min_announcements_view__ja.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                JOT_postEvent('moduleLoad');
+              </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-select-button',
+                        {"object":[{"action":"/system/app/pages/search","id":"search-site","label":"\u3053\u306e\u30b5\u30a4\u30c8\u3092\u691c\u7d22"},{"action":"/system/app/pages/customSearch","id":"search-ns","label":"\u3059\u3079\u3066\u306e\u30b5\u30a4\u30c8\u3092\u691c\u7d22"}]}['object'],
+                        'search-site',
+                        {"label":"\u691c\u7d22\u30aa\u30d7\u30b7\u30e7\u30f3\u3092\u8a2d\u5b9a...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+          var domHelper = goog.dom.getDomHelper();
+          var paginatorPageJs = new sites.components.Paginator(domHelper);
+          paginatorPageJs.initListeners('sites-pagination-prev-link-top', 'sites-pagination-next-link-top', 12,
+              0, 10, 'asc', 'announcements');
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "ナビゲーション", true);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+          JOT_addListener('titleChange', 'JOT_RECENTCHANGES_titleChange', 'COMP_5466367304325104');
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([1109635200000, 1128902400000, 1130657000000, 1143333000000, 1143806400000, 1145000000000, 1146380000000, 1152489600000, 1159800000000, 1159500000000, 1162095000000, 1162075000000, 1162105500000]);
+    gsites.Xhr.send('http://www.shirai.la/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false,
+            false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "ja");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+        JOT_insertTranslateCode('en', 'ja');
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+  //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          JOT_setupPostRenderingManager();
+        </script>
+<script type="text/javascript">
+          JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+        </script>
+<script type="text/javascript">
+          sites.codeembed.init();
+        </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+</body>
+</html>
