@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://blog.shirai.la/sitemap/sitemap.xml
