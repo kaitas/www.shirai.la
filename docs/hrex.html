@@ -198,20 +198,10 @@ size = rgb_im.size <span style="color: #00ccff">#sizeはrgb_imの大きさを声
 im2 = Image.new('RGBA', size)<span style="color: #00ccff">#im2のフォーマットはRGBA(Red, Green, Blue, Alpha)、そして大きさは先に声明したsizeの同じく大きさです。</span>
 
 for x in range(size[0]):
-    for y in range(size[1]):
-        r,g,b = rgb_im.getpixel((x,y))<span style="color: #00ccff">#画像中にすべてのピクセルの色の資料をもらって、r, g, bに保存します。</span>
-
-        if (r &gt;= 200) and (g &lt;= 100) and (b &lt;= 100):
-            r = 255 - r<span style="color: #00ccff">#Redの値を反転します。</span>
-            g = 255 - g<span style="color: #00ccff">#Greenの値を反転します。</span>
-            b = 255 - b<span style="color: #00ccff">#Blueの値を反転します。</span>
-
-        else:
-            r = 255<span style="color: #00ccff">#Redの値を255になります。</span>
-            g = 255<span style="color: #00ccff">#Greenの値を255になります。</span>
-            b = 255<span style="color: #00ccff">#Blueの値を255になって、色が白になります。</span>
-
-        im2.putpixel((x, y), (r, g, b, 0))<span style="color: #00ccff">#imのサイズをxとyの最大点になります。色をr, g, bの新しい値になります。</span>
+    for y in range(size[1]):  r,g,b = rgb_im.getpixel((x,y))<span style="color: #00ccff">#画像中にすべてのピクセルの色の資料をもらって、r, g, bに保存します。</span>
+  if (r &gt;= 200) and (g &lt;= 100) and (b &lt;= 100):      r = 255 - r<span style="color: #00ccff">#Redの値を反転します。</span>      g = 255 - g<span style="color: #00ccff">#Greenの値を反転します。</span>      b = 255 - b<span style="color: #00ccff">#Blueの値を反転します。</span>
+  else:      r = 255<span style="color: #00ccff">#Redの値を255になります。</span>      g = 255<span style="color: #00ccff">#Greenの値を255になります。</span>      b = 255<span style="color: #00ccff">#Blueの値を255になって、色が白になります。</span>
+  im2.putpixel((x, y), (r, g, b, 0))<span style="color: #00ccff">#imのサイズをxとyの最大点になります。色をr, g, bの新しい値になります。</span>
 
 im2.save("新しいファイルの位置")<span style="color: #00ccff">#新しく変更された画像を保存します。</span></pre>
 <p>そして以下2枚写真は元の写真と上記プログラムの結果です。</p>

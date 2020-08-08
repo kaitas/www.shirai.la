@@ -177,16 +177,10 @@ Jonas<br />
                             <div class="bxslide"><img src="https://blog.shirai.la/jonas/files/2012/11/Mong.jpg" alt="" title="Mong" /></div>
                             <div class="bxslide"><img src="https://blog.shirai.la/jonas/files/2012/11/Mong_UV.jpg" alt="" title="Mong_UV" /></div>
                     </div>
-    </div>
-
-    
-        <div class="pager-wrapper">
+    </div>        <div class="pager-wrapper">
             <div class="bxpager">
                 <a data-slide-index="0" href="" title="Mong"><img src="https://blog.shirai.la/jonas/files/2012/11/Mong-150x150.jpg" alt="" title="Mong" /></a><a data-slide-index="1" href="" title="Mong_UV"><img src="https://blog.shirai.la/jonas/files/2012/11/Mong_UV-150x150.jpg" alt="" title="Mong_UV" /></a>            </div>
-        </div>
-
-    
-</div>
+        </div></div>
 <p>Finished unwraping one of the character, that I&#8217;m going to animate, today.<br />
 Next up is planing the rig of the character.</p>
 ]]></content:encoded>
