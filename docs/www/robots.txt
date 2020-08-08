@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: /feeds
-Allow: https://www.shirai.la/docs/rsrc/
+Allow: https://www.shirai.la/www/rsrc/
 Disallow: /_/
 Sitemap: http://www.shirai.la:80/system/feeds/sitemap
